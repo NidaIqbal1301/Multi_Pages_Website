@@ -171,7 +171,7 @@ const Page = () => {
             <ul className="footer_list">
               <li className="footer_list_item">Privacy Policy</li>
               <li className="footer_list_item">Terms of Use</li>
-              <li className="footer_list_item">FAQ's</li>
+              <li className="footer_list_item">FAQ&apos;s</li>
               <li className="footer_list_item">Contact</li>
             </ul>
           </div>

@@ -59,7 +59,7 @@ const LoginPage = () => {
                 <button className="form_btn">Login</button>
               </div>
               <div className="form_group">
-                <span>Don't have an account? <Link href="/signup" className="form_auth_link">Register</Link></span>
+                <span>Don&apos;t have an account? <Link href="/signup" className="form_auth_link">Register</Link></span>
               </div>
             </form>
           </div>
@@ -85,7 +85,7 @@ const LoginPage = () => {
           </ul>
         </div>
         <div className="footer_item">
-          <h3 className="footer_item_titl">Support</h3>
+          <h3 className="footer_item_title">Support</h3>
           <ul className="footer_list">
             <li className="li footer_list_item">Account</li>
             <li className="li footer_list_item">Login / Register</li>
@@ -94,7 +94,7 @@ const LoginPage = () => {
           </ul>
         </div>
         <div className="footer_item">
-          <h3 className="footer_item_titl">Support</h3>
+          <h3 className="footer_item_title">Support</h3>
           <ul className="footer_list">
             <li className="li footer_list_item">Privacy policy</li>
             <li className="li footer_list_item">Terms of use</li>
@@ -113,8 +113,8 @@ const LoginPage = () => {
       </footer>
 
       {/* Swiper JS */}
-      <Script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" strategy="lazyOnload" />
-      <Script src="/js/app.js" strategy="lazyOnload" />
+      <Script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" strategy="afterInteractive" />
+      <Script src="/js/app.js" strategy="afterInteractive" />
     </>
   );
 };

@@ -77,13 +77,13 @@ export default function Home() {
     <header className="header">
       <div className="container header_container">
         <div className="header_filter">
-          <a href="#" className="header_filter_link">Woman’s Fashion</a>
-          <a href="#" className="header_filter_link">Men’s Fashion</a>
+          <a href="#" className="header_filter_link">Woman&apos;s Fashion</a>
+          <a href="#" className="header_filter_link">Men&apos;s Fashion</a>
           <a href="#" className="header_filter_link">Electronics</a>
           <a href="#" className="header_filter_link">Home & Lifestyle</a>
           <a href="#" className="header_filter_link">Medicine</a>
           <a href="#" className="header_filter_link">Sports & Outdoor</a>
-          <a href="#" className="header_filter_link">Baby’s & Toys</a>
+          <a href="#" className="header_filter_link">Baby&apos;s & Toys</a>
           <a href="#" className="header_filter_link">Groceries & Pets</a>
           <a href="#" className="header_filter_link">Health & Beauty</a>
         </div>
@@ -94,7 +94,7 @@ export default function Home() {
     <section className="section">
       <div className="container">
         <div className="section_category">
-          <p className="section_category_p">Today's</p>
+          <p className="section_category_p">Today&apos;s</p>
         </div>
         <div className="section_header">
           <h3 className="section_title">Flash Sale</h3>
