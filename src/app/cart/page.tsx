@@ -98,8 +98,8 @@ const Cart = () => {
               <div className="cart_item">
                 <p>12345</p>
                 <p>Sample Product</p>
-                <Image src="/image/product-placeholder.jpg" alt="Product" width={50} height={50} className="cart_image" />
-                <p>$20.00</p>
+                <Image src="/image/items/item-3.png" alt="Product" width={50} height={50} className="cart_image" />
+                <p>$120.00</p>
                 <button className="cart_delete">X</button>
               </div>
             </div>
@@ -120,7 +120,7 @@ const Cart = () => {
             <h3 className="footer_item_title">Support</h3>
             <ul className="footer_list">
               <li className="footer_list_item">Stockholm, Sweden</li>
-              <li className="footer_list_item">email@gmail.com</li>
+              <li className="footer_list_item">email&#64;gmail.com</li>
               <li className="footer_list_item">+46 123 456 78</li>
               <li className="footer_list_item">+46 72 345 67</li>
             </ul>
@@ -138,7 +138,7 @@ const Cart = () => {
             <ul className="footer_list">
               <li className="footer_list_item">Privacy Policy</li>
               <li className="footer_list_item">Terms of Use</li>
-              <li className="footer_list_item">FAQ's</li>
+              <li className="footer_list_item">FAQ&apos;s</li>
               <li className="footer_list_item">Contact</li>
             </ul>
           </div>

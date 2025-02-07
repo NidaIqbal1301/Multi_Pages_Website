@@ -30,11 +30,11 @@ const LoginPage = () => {
           <div className="nav_items">
             <form action="#" className="nav_form">
               <input type="text" className="nav_input" placeholder="Search here..." />
-              <Image src="/image/search.png" alt="Search" width={30} height={30} />
+              <Image src="/image/search.png" alt="Search" width={20} height={20} />
             </form>
-            <Image src="/image/heart.png" alt="Wishlist" width={30} height={30} />
+            <Image src="/image/heart.png" alt="Wishlist" width={20} height={20} />
             <Link href="/cart">
-              <Image src="/image/cart.png" alt="Cart" width={30} height={30} />
+              <Image src="/image/cart.png" alt="Cart" width={20} height={20} />
             </Link>
           </div>
         </div>
@@ -79,7 +79,7 @@ const LoginPage = () => {
           <h3 className="footer_item_titl">Support</h3>
           <ul className="footer_list">
             <li className="li footer_list_item">Stockholm, Sweden</li>
-            <li className="li footer_list_item">email@gmail.com</li>
+            <li className="li footer_list_item">email&#64;gmail.com</li>
             <li className="li footer_list_item">+46 123 456 78</li>
             <li className="li footer_list_item">+46 72 345 67</li>
           </ul>
@@ -98,7 +98,7 @@ const LoginPage = () => {
           <ul className="footer_list">
             <li className="li footer_list_item">Privacy policy</li>
             <li className="li footer_list_item">Terms of use</li>
-            <li className="li footer_list_item">FAQ's</li>
+            <li className="li footer_list_item">FAQ&apos;s</li>
             <li className="li footer_list_item">Contact</li>
           </ul>
         </div>
